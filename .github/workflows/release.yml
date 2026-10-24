@@ -44,3 +44,15 @@ jobs:
           name: PnZafiro-apk
           path: app/build/outputs/apk/release/*.apk
           if-no-files-found: warn
+      - name: Create GitHub Release
+        if: always()
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: pn-build-${{ github.run_number }}
+          name: PnZafiro build ${{ github.run_number }}
+          body: |
+            PnZafiro（非官方 Pn 版，基于 Zafiro ${{ github.sha }}）
+            粉色猫头图标 / 关于页精简 / 数据与官方版共用
+          files: app/build/outputs/apk/release/*.apk
+          draft: false
+          prerelease: true
