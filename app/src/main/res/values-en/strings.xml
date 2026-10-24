@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App / Module -->
-    <string name="app_name">Zafiro</string>
+    <string name="app_name">PnZafiro</string>
     <string name="xposed_desc">Empower your voice assistant with your own models\n\nCurrently supported:\n\n- ColorOS Breeno\n- HyperOS XiaoAi</string>
 
     <!-- Onboarding -->
@@ -161,7 +161,7 @@
     <string name="ui_settings_storage_summary">Clear caches and downloaded files</string>
     <string name="ui_settings_about">About</string>
     <string name="ui_settings_about_summary"></string>
-    <string name="ui_settings_about_description">Bring your own model to your voice assistant</string>
+    <string name="ui_settings_about_description">Bring your own model to your voice assistant (unofficial Pn build, shares official data)</string>
     <string name="ui_settings_about_author_homepage">Author Website</string>
     <string name="ui_settings_about_github">GitHub</string>
     <string name="ui_settings_about_afdian">Afdian</string>
