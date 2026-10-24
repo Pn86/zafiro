@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App / Module -->
-    <string name="app_name">Zafiro</string>
+    <string name="app_name">PnZafiro</string>
     <string name="xposed_desc">Conecte el asistente de voz a sus propios modelos\n\nCompatible con:\n\n- ColorOS Breeno\n- HyperOS XiaoAi</string>
 
     <!-- Onboarding -->
@@ -161,7 +161,7 @@
     <string name="ui_settings_storage_summary">Borrar cachés y archivos descargados</string>
     <string name="ui_settings_about">Acerca de</string>
     <string name="ui_settings_about_summary"></string>
-    <string name="ui_settings_about_description">Conecte su asistente de voz a sus propios modelos</string>
+    <string name="ui_settings_about_description">Conecte su asistente de voz a sus propios modelos (compilación Pn no oficial, datos compartidos)</string>
     <string name="ui_settings_about_author_homepage">Sitio web del autor</string>
     <string name="ui_settings_about_github">GitHub</string>
     <string name="ui_settings_about_afdian">Afdian</string>
