@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App / Module -->
-    <string name="app_name">Zafiro</string>
+    <string name="app_name">PnZafiro</string>
     <string name="xposed_desc">音声アシスタントに独自のモデル機能を連携\n\n対応中:\n\n- ColorOS Breeno\n- HyperOS XiaoAi</string>
 
     <!-- Onboarding -->
@@ -160,7 +160,7 @@
     <string name="ui_settings_storage_summary">キャッシュとダウンロード済みファイルを削除</string>
     <string name="ui_settings_about">アプリについて</string>
     <string name="ui_settings_about_summary"></string>
-    <string name="ui_settings_about_description">音声アシスタントに独自のモデル機能を連携</string>
+    <string name="ui_settings_about_description">音声アシスタントに独自のモデル機能を連携（非公式 Pn 版、公式データと共通）</string>
     <string name="ui_settings_about_author_homepage">作者ホームページ</string>
     <string name="ui_settings_about_github">GitHub</string>
     <string name="ui_settings_about_afdian">Afdian</string>
