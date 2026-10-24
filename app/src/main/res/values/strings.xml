@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App / Module -->
-    <string name="app_name">Zafiro</string>
+    <string name="app_name">PnZafiro</string>
     <string name="xposed_desc">让语音助手接入你自己的模型能力\n\n现支持:\n\n- ColorOS 小布助手\n- HyperOS 小爱同学</string>
 
     <!-- Onboarding -->
@@ -160,7 +160,7 @@
     <string name="ui_settings_storage_summary">清理缓存与下载文件</string>
     <string name="ui_settings_about">关于</string>
     <string name="ui_settings_about_summary"></string>
-    <string name="ui_settings_about_description">让语音助手，接入您自己的模型能力</string>
+    <string name="ui_settings_about_description">让语音助手，接入您自己的模型能力（非官方 Pn 版，与官方数据通用）</string>
     <string name="ui_settings_about_author_homepage">作者主页</string>
     <string name="ui_settings_about_github">GitHub</string>
     <string name="ui_settings_about_afdian">爱发电</string>
