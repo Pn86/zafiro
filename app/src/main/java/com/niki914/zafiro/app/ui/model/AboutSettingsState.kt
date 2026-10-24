@@ -9,8 +9,6 @@ import com.niki914.zafiro.repo.XRepo
 enum class AboutSettingsItemId {
     AuthorHomepage,
     Github,
-    Afdian,
-    Telegram,
     FeatureFeedback,
     BugFeedback,
 }
@@ -83,16 +81,6 @@ private fun aboutSettingsItems(): List<AboutSettingsItemUiState> {
             id = AboutSettingsItemId.Github,
             titleRes = R.string.ui_settings_about_github,
             uri = "https://github.com/niki914/zafiro",
-        ),
-        AboutSettingsItemUiState(
-            id = AboutSettingsItemId.Afdian,
-            titleRes = R.string.ui_settings_about_afdian,
-            uri = "https://afdian.com/a/niki914",
-        ),
-        AboutSettingsItemUiState(
-            id = AboutSettingsItemId.Telegram,
-            titleRes = R.string.ui_settings_about_telegram,
-            uri = "https://t.me/+ZPX2xtSl6RwyZGNl",
         ),
         AboutSettingsItemUiState(
             id = AboutSettingsItemId.FeatureFeedback,
