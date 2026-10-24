@@ -160,8 +160,6 @@ private fun AboutSettingsItemUiState.leadingIcon(): SettingsRowLeadingIcon {
         AboutSettingsItemId.AuthorHomepage,
         AboutSettingsItemId.Github -> SettingsRowLeadingIcon.PainterResource(R.drawable.github)
 
-        AboutSettingsItemId.Afdian -> SettingsRowLeadingIcon.PainterResource(R.drawable.aifadian)
-        AboutSettingsItemId.Telegram -> SettingsRowLeadingIcon.PainterResource(R.drawable.telegram)
         AboutSettingsItemId.FeatureFeedback -> SettingsRowLeadingIcon.Vector(Icons.Default.Feedback)
         AboutSettingsItemId.BugFeedback -> SettingsRowLeadingIcon.Vector(Icons.Default.BugReport)
     }
@@ -215,16 +213,6 @@ private fun previewAboutSettingsUiState(): AboutSettingsUiState {
                 id = AboutSettingsItemId.Github,
                 titleRes = R.string.ui_settings_about_github,
                 uri = "https://github.com/niki914/zafiro",
-            ),
-            AboutSettingsItemUiState(
-                id = AboutSettingsItemId.Afdian,
-                titleRes = R.string.ui_settings_about_afdian,
-                uri = null,
-            ),
-            AboutSettingsItemUiState(
-                id = AboutSettingsItemId.Telegram,
-                titleRes = R.string.ui_settings_about_telegram,
-                uri = null,
             ),
             AboutSettingsItemUiState(
                 id = AboutSettingsItemId.FeatureFeedback,
