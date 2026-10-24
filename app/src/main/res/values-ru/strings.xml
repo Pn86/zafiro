@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Zafiro</string>
+    <string name="app_name">PnZafiro</string>
     <string name="xposed_desc">Подключите свою модель к голосовому помощнику\n\nСейчас поддерживаются:\n\n- ColorOS Breeno\n- HyperOS XiaoAi</string>
     <string name="ui_onboard_startup_demo_button">Начать</string>
     <string name="ui_onboard_provider_pick_title">Выберите провайдера</string>
@@ -152,7 +152,7 @@
     <string name="ui_settings_storage_summary">Очистка кешей и загруженных файлов</string>
     <string name="ui_settings_about">О программе</string>
     <string name="ui_settings_about_summary"></string>
-    <string name="ui_settings_about_description">Своя модель для вашего голосового помощника</string>
+    <string name="ui_settings_about_description">Своя модель для вашего голосового помощника (неофициальная Pn-сборка, общие данные)</string>
     <string name="ui_settings_about_author_homepage">Сайт автора</string>
     <string name="ui_settings_about_github">GitHub</string>
     <string name="ui_settings_about_afdian">Afdian</string>
